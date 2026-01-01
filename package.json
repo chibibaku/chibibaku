@@ -1,0 +1,26 @@
+{
+  "name": "chibibaku",
+  "version": "1.0.0",
+  "description": "chibibaku's profile",
+  "homepage": "https://github.com/chibibaku/chibibaku#readme",
+  "bugs": {
+    "url": "https://github.com/chibibaku/chibibaku/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chibibaku/chibibaku.git"
+  },
+  "license": "ISC",
+  "author": "chibibaku",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.15"
+  }
+}
